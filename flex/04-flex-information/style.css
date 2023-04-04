@@ -24,3 +24,57 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* Solution */
+
+/* .container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.infographics {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; 
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.text {
+  word-wrap: break-word;
+  text-align: center
+} */
+
+/* Odin's Solutions */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+li {
+  max-width: 200px;
+  /* or width:200px; it's the same? */
+}
